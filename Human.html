@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Assigment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/loogoo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" class="seang">HOME</a></li>
+                    <li><a href="solar.html" class="seang">SOLAR</a></li>
+                    <li><a href="tech.html" class="seang">TECH</a></li>            
+                    <li><a href="about.html" class="seang">ABOUT</a></li>
+                    <li><a href="contact.html" class="seang">CONTACT</a></li>
+                    <br><br>
+                    <a href="login.html"><button class="btnLogin-popup">Login</button></a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Sicence and Technology</h1>
+    </section>
+
+    <section>
+        <div class="xrapper">
+            <div class="x-col">
+            <img src="image/human.jpg">
+            <div class="text">
+                <h2>Human is Space</h2>
+        <p>
+            Human presence in space is about humanity in space, particularly about all anthropogenic presence in space and human activity in space, that is in outer space and in a broader sense also on any extraterrestrial astronomical body.
+            <br>
+            Humans have been present in space either, in the common sense, through their direct presence and activity like human spaceflight, or through mediation of their presence and activity like with uncrewed spaceflight, making "telepresence" possible.[1] Human presence in space, particularly through mediation, can take many physical forms from space debris, uncrewed spacecraft, artificial satellites, space observatories, crewed spacecraft, art in space, to human outposts in outer space such as space stations. While human presence in space, particularly its continuation and permanence can be a goal in itself,[1] human presence can have a range of purposes[2] and modes from space exploration, commercial use of space to space settlement or even colonization and militarisation of space. Human presence in space is realized and sustained through the advancement and application of space sciences, particularly astronautics in the form of spaceflight and space infrastructure.
+            <br>
+            Humans have achieved some mediated presence throughout the Solar System, but the most extensive presence has been in orbit around Earth. Humans have sustained direct presence in orbit around Earth since the year 2000 through continuously crewing the ISS, and with few interruptions through crewing the space station Mir since the later 1980s.[3] The increasing and extensive human presence in orbital space around Earth, beside its benefits, has also produced a threat to it by carrying with it space debris, potentially cascading into the so-called Kessler syndrome.[4] This has raised the need for regulation and mitigation of such to secure a sustainable access to outer space.
+            <br>
+            Securing the access to space and human presence in space has been pursued and allowed by the establishment of space law and space industry, creating a space infrastructure. But sustainability has remained a challenging goal, with the United Nations seeing the need to advance long-term sustainability of outer space activities in space science and application,[5] and the United States having it as a crucial goal of its contemporary space policy and space program.[6][7]
+        </p>
+        <img src="image/human2.jpg">
+        <p>
+            Astronauts and cosmonauts who undertake multiple spaceflights traditionally fall into one of two categories. One category consists of pilots, often with military backgrounds, who have had extensive experience in flying high-performance aircraft. They are responsible for piloting space vehicles such as the space shuttle and Soyuz. The other category includes scientists and engineers who are not necessarily pilots. They have primary responsibility for carrying out the scientific and engineering activities scheduled for a particular mission. They are known in the U.S. space program as mission specialists and in the Russian space program as flight engineers. With the development of long-duration space stations such as Mir and the ISS, the distinction between pilot and nonpilot astronauts and cosmonauts has become less clear, because all members of a space station crew carry out station operations and experiments.
+            <br>
+            A third category of individuals who have gone into space is called variously payload specialists or guest cosmonauts. These individuals include scientists and engineers who accompany their experiments into orbit; individuals selected to go into space for political reasons, such as members of the U.S. Congress or persons from countries allied with the Soviet Union or the United States; and a few nontechnical people—for example, the rare journalist or teacher or the private individual willing to pay substantial amounts of money for a spaceflight. These people are intensively trained for their particular flight but usually go into space only once. At some future time, the costs and risks of human spaceflight may become low enough to accommodate the business of space tourism, in which many people would be able to experience spaceflight. Until then, access to orbit will be restricted to a comparatively small number of people. However, several firms have planned for paying customers brief suborbital flights that would provide a few minutes of weightlessness and dramatic views of Earth as they are launched on a trajectory carrying them above 100 km (62 miles) in altitude, the generally recognized border between airspace and outer space.
+        </p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!-- footer -->
+<footer class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quam earum quos, incidunt cumque velit illo neque numquam
+    distinctio ut<br> odit assumenda recusandae cupiditate aspernatur sint eveniet dolorem doloribus corrupti.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-phone"></i>
+    </div>
+    <p>Made by Yong EngSeang ,Room:608 Morning</p>
+
+</footer>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>

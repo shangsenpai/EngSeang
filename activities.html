@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Assigment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/loogoo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" class="seang">HOME</a></li>
+                    <li><a href="solar.html" class="seang">SOLAR</a></li>
+                    <li><a href="tech.html" class="seang">TECH</a></li>            
+                    <li><a href="about.html" class="seang">ABOUT</a></li>
+                    <li><a href="contact.html" class="seang">CONTACT</a></li>
+                    <br><br>
+                    <a href="login.html"><button class="btnLogin-popup">Login</button></a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Sicence and Technology</h1>
+    </section>
+
+    <section>
+        <div class="xrapper">
+            <div class="x-col">
+            <img src="image/ac1.jfif">
+            <div class="text">
+                <h2>Activities</h2>
+        <p>
+            In today’s A Lab Aloft, guest blogger Liz Warren, Ph.D., looks at the differences between male and female astronaut physiology on long duration space missions.
+            <br>
+            I hate to break it to you, but men are not actually from Mars and women are not really from Venus. This silly saying illustrates a question that researchers, however, are serious about studying. With International Women’s Day around the corner, I thought it the ideal time to address the question: Is there a difference between the sexes as the human body adapts to microgravity?
+            <br>
+            You may remember reading the earlier blog that I wrote about celebrating “firsts” for women space explorers. The sky is certainly no longer the limit for females interested in exploration, science or any other career they wish to pursue. In fact, if you’re following our current mission, you already know we have two women living and working on the International Space Station.
+        </p>
+        <img src="image/ac2.jfif">
+        <p>
+            In the fall of 2015, Sarah Brightman will be the 60th woman to fly in space. As we approach longer durations in human spaceflight, such as the one-year mission and the journey to Mars, it is important to tease out all aspects of how humans handle life in microgravity to ensure crew safety. The answers may also hold insights for human health even if you never leave the ground.
+            <br>
+            Our current crew aboard the space station includes ESA (European Space Agency) astronaut of Italian nationality, Samantha Cristoforetti, and a Roscosmos cosmonaut of Russian nationality, Yelena Serova. While serving aboard the orbiting laboratory for about six months, they each perform experiments in disciplines that range from technology development, physical sciences, human research, biology and biotechnology to Earth observations. This research helps in benefitting our lives here on Earth and enables future space exploration. They also engage students through educational activities in addition to operational tasks such as equipment maintenance and visiting vehicle tasks.
+        </p>
+
+        <img src="image/ac4.jpg">
+        <p>
+            It’s important to acknowledge the contributions women in space make to both exploration and research. For instance, on Feb. 3, a prestigious tribute went to another woman space explorer, Japan Aerospace Exploration Agency (JAXA) astronaut Chiaki Mukai. She was conferred the National Order of the Legion of Honour, Chevalier. Mukai flew aboard space shuttle missions STS-65 and STS-95, and is currently the director of the JAXA Center for Applied Space Medicine and Human Research (J-CASMHR). The work these trailblazers accomplish also includes their role as research subjects themselves.
+            <br>
+            Female space explorers are skilled professionals, representing the best humanity has to offer, executing complex tasks in an unforgiving environment. Their sex differentiates them only so far as biology determines—which is exactly the topic covered in a recent compendium titled “Impact of Sex and Gender on Adaptation to Space.” The results were published in the November 2014 issue of the Journal of Women’s Health.
+        </p>
+
+        <img src="image/ac5.jpg">
+        <p>
+            Space exploration is inherently dangerous, and as we look to longer duration spaceflights to Mars and beyond, NASA wants to make sure we are addressing the right questions to minimize risk to our astronaut crews. Based on a recommendation by the National Academy of Sciences, NASA and the National Space Biomedical Research Institute (NSBRI) assembled six scientific working groups to compile and summarize the current body of knowledge about the different ways that spaceflight affects the bodies of men and women. The groups focused on cardiovascular, immunological, sensorimotor, musculoskeletal, reproductive and behavioral implications on spaceflight adaptation for men and women. NASA and NSBRI created a diagram summarizing differences between men and women in cardiovascular, immunologic, sensorimotor, musculoskeletal, and behavioral adaptations to human spaceflight.
+            <br>
+            Thus far, the differences between the male and female adaptation to spaceflight are not significant. In other words, mission managers planning a trip to Mars, for example, can do so without consideration of the sex of the crew members. However, many questions remain unanswered and require further studies and more women subjects in the human-health investigations. There is an imbalance in data available for men and women, primarily due to fewer women having flown in space.
+        </p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+<!-- footer -->
+<footer class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quam earum quos, incidunt cumque velit illo neque numquam
+    distinctio ut<br> odit assumenda recusandae cupiditate aspernatur sint eveniet dolorem doloribus corrupti.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-phone"></i>
+    </div>
+    <p>Made by Yong EngSeang ,Room:608 Morning</p>
+
+</footer>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
